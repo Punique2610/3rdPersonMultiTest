@@ -17,6 +17,8 @@ I design the system based on Clean Architechture of Robert C. Martin.
 When using others' assets/libraries, sometimes they were not designed with the same principles as our codebase.
 So I tried to integrate the assets/libraries in a way that made use of their strength as much as possible, while also maintaining the clean architecture.
 
+There are 3 types of data: data pulled from the server/ local machine, local data, and runtime network data. They all have their uses.
+
 Below are all the scripts I wrote and their layer in the architecture, and the dependency direction.
 With clean architecture, they are loosely coupled, clear to understand, and great for scalability.
 
